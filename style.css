@@ -1,0 +1,80 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    background: rgb(195,34,164);
+    background: linear-gradient(0deg, rgba(195,34,164,1) 0%, rgba(45,91,253,1) 100%);
+    
+}
+
+
+#container{ 
+    max-width: 400px;
+    max-height: 400px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#family{
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+
+#gateau{
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    background-image: url("images/Gateau.png");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gateau:active{
+    background-image: url("images/Gateau2.png");
+}
+
+h1{
+    font-family: Hittheroad;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    
+}
+#imgBG{
+    width: 100%;
+    max-width:500px ;
+    max-height: 300px;
+}
+
+#global{  
+    width: 100%;
+    height: 900px;
+    background-image: url('images/stars-twinkle.gif');
+    background-size: 600px;
+    
+    
+    
+   
+}
+
+
+@font-face {
+    font-family: "Hittheroad";
+    src: url('/font/stay_and_shine/Stay\ and\ Shine.ttf');
+} 
+
+
+
+
+
+
